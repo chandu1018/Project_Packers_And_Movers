@@ -1,0 +1,109 @@
+.service-requests-page,
+.table-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.styled-table th {
+  background-color: #f57134;
+  color: white;
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.styled-table tr:hover {
+  background-color: #ddd;
+}
+
+.styled-table td select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.styled-table td select:focus {
+  outline: none;
+  border-color: #f57134;
+}
+
+.styled-table td.pending {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.styled-table td.paid {
+  color: #f57134;
+  font-weight: bold;
+}
+
+.delete-btn,
+.update-btn,
+.back-btn {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #c9302c;
+}
+
+.update-btn {
+  background-color: #4caf50;
+}
+
+.update-btn:hover {
+  background-color: #4caf50;
+}
+
+.update-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.back-btn {
+  background-color: #f57134;
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  text-align: center;
+}
+
+.back-btn:hover {
+  background-color: #f57134;
+}
+
+.styled-table td[colspan="8"] {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  padding: 20px;
+}
