@@ -1,0 +1,82 @@
+.edit-service-container,
+.edit-vendor-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-service-container h2,
+.edit-vendor-container h2 {
+  text-align: center;
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-group,
+.edit-vendor-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-group label,
+.edit-vendor-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.input-group input,
+.edit-vendor-container input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.button-group,
+.edit-vendor-btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.save-btn,
+.edit-vendor-save-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease;
+  background-color: #28a745;
+  color: white;
+}
+
+.save-btn:hover,
+.edit-vendor-save-btn:hover {
+  background-color: #218838;
+}
+
+.cancel-btn,
+.edit-vendor-cancel-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #dc3545;
+  color: white;
+}
+
+.cancel-btn:hover,
+.edit-vendor-cancel-btn:hover {
+  background-color: #c82333;
+}
